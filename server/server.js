@@ -10,8 +10,19 @@ const indexHTMLPath = "/client/public/index.html";
 
 //----------------------------------------- MIDDLEWARE ---------------------------------------------------
 
+// mongoose.connect(
+//   "mongodb://localhost:27017/boredandBooklessDB",
+//   {
+//     useNewUrlParser: true,
+//     useUnifiedTopology: true,
+//   },
+//   () => {
+//     console.log("boredandBooklessDB Connected");
+//   }
+// );
+
 mongoose.connect(
-  "mongodb://localhost:27017/boredandBooklessDB",
+  "mongodb+srv://admin-amit:sonunandini@cluster0.k902j.mongodb.net/boredAndBooklessDB",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
